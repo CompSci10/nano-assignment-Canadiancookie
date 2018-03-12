@@ -10,4 +10,7 @@ esc $: soft wrapping of overlong lines (enable/disable) - moves lines that are n
 esc l: hard wrapping of overlong lines (enable/disable) - don't use, can break code
 note: esc g/$/l can be replaced with alt+g/$/
 
-
+-$: 
+-i: --autoindent; indents new lines to the previous line's indentation
+-W: --wordbounds; detects word boundaries differently by treating punctuaion characters as part of word
+-S: --smooth; enable smooth scrolling; line by line instead of chunk by chunk
