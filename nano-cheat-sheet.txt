@@ -4,6 +4,8 @@ ctrl+w: saerch for target string
 ctrl+k: cut from current cursor position to end of current line
 ctrl+a: move to beginning of current line
 ctrl+e: move to end of current line
-esc g: 
-esc $:
-esc l:
+esc g: go to line and column number
+esc $: soft wrapping of overlong lines (enable/disable)
+esc l: hard wrapping of overlong lines (enable/disable)
+
+note: esc g/$/l can be replaced with alt+g/$/l
